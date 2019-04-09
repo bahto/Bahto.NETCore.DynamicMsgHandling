@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageDispatcher", "MessageDispatcher\MessageDispatcher.csproj", "{F798B279-DCD7-4365-A81E-B9CBE5B59CAE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageHandlers", "MessageHandlers\MessageHandlers.csproj", "{EADDDD7D-0199-44B4-81EF-0E39D6AC6881}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{1FFD71DD-C992-49DA-A993-F89CAD24EB95}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{F798B279-DCD7-4365-A81E-B9CBE5B59CAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F798B279-DCD7-4365-A81E-B9CBE5B59CAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F798B279-DCD7-4365-A81E-B9CBE5B59CAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EADDDD7D-0199-44B4-81EF-0E39D6AC6881}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EADDDD7D-0199-44B4-81EF-0E39D6AC6881}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EADDDD7D-0199-44B4-81EF-0E39D6AC6881}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EADDDD7D-0199-44B4-81EF-0E39D6AC6881}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FFD71DD-C992-49DA-A993-F89CAD24EB95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FFD71DD-C992-49DA-A993-F89CAD24EB95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FFD71DD-C992-49DA-A993-F89CAD24EB95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FFD71DD-C992-49DA-A993-F89CAD24EB95}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
