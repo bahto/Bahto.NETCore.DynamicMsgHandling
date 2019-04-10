@@ -3,11 +3,11 @@ using MessageHandlers.HandlersPerMsgType;
 
 namespace MessageDispatcher
 {
-    public class DemoMessageDispatcher
+    public class MessageDispatcher
     {
         private readonly string _msgProcessed;
 
-        public DemoMessageDispatcher(string msgType, string msgBody)
+        public MessageDispatcher(string msgType, string msgBody)
         {
             IMessageHandler myMessageHandler;
             try
